@@ -97,7 +97,7 @@ The course also made me realize how much focus and consistency front-end develop
 ## Author
 
 Built by **Sirak Getachew** as part of **Noroff Front-End Semester Project 2**  
-Cohort: FED2 2025
+Cohort: FED2 2024
 
 ---
 
