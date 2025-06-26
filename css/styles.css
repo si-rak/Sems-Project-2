@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap');
+
+/* Global */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+  color: #111827;
+}
+
+h1, h2, h3, .navbar-brand {
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg-primary {
+  background-color: #4B61FF !important;
+}
+
+
+/* Button */
+.btn-primary {
+  background-color: #4B61FF;
+  border-color: #4B61FF;
+  color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #3f54e0;
+  border-color: #3f54e0;
+}
+
+
+.alert-danger {
+  background-color: #FF4E4E;
+  color: white;
+  border: none;
+}
+
+.paw-icon {
+  font-size: 1.2rem;
+  color: white;
+  vertical-align: middle;
+  margin-right: 0.25rem;
+}
+
+
+.footer-social-icons i {
+  vertical-align: middle;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a.text-primary:hover,
+a.text-primary:focus {
+  text-decoration: underline;
+  color: #3742fa;
+}
+
+label {
+  font-weight: 400;
+  font-size: 0.95rem;
+}
+
+input, textarea {
+  font-size: 1rem;
+}
+
+.profile-avatar-link {
+  color: #4B61FF;
+  transition: color 0.3s ease;
+  font-size: 3rem; 
+}
+
+.profile-avatar-link:hover,
+.profile-avatar-link:focus {
+  color: #3742fa;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+
+
+/* Social icon center alignment on tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer-social-icons {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    align-items: center;
+  }
+
+  .footer-social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none
+  }
+
+  .footer-social-icons a:hover,
+  .footer-social-icons a:focus {
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.85;
+  }
+
+  footer .row.align-items-center {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  footer .row .col-md-4 {
+    flex: 1 0 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  footer .fw-semibold {
+    margin-top: 0.5rem;
+  }
+}
+
+
+/* Larger login card for wider screens */
+@media (min-width: 992px) {
+
+  .card.login-card {
+    max-width: 600px;
+    padding: 3rem;
+  }
+
+  .login-card h2 {
+    font-size: 1.75rem;
+  }
+
+  .login-card .form-control {
+    height: 3rem;
+    font-size: 1.05rem;
+  }
+
+  .login-card button,
+  .login-card .btn {
+    height: 3rem;
+    font-size: 1rem;
+  }
+
+  .login-card p,
+  .login-card label {
+    font-size: 1rem;
+  }
+}
