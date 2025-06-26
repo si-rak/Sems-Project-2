@@ -65,8 +65,8 @@
 
 ## Deployment
 
-**Live site:** [your-netlify-or-github-pages-link](https://your-project.netlify.app)  
-**GitHub repo:** [your-repo-link](https://github.com/your-username/petadopt)
+**Live site:** [sems-project-2.netlify.app](https://sems-project-2.netlify.app/)  
+**GitHub repo:** [github.com/si-rak/Sems-Project-2](https://github.com/si-rak/Sems-Project-2)
 
 ---
 
